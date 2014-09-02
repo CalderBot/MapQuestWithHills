@@ -1,0 +1,20 @@
+body {
+  min-height: 1000px;
+  padding: 20px;
+}
+
+input {
+  margin: 1rem;
+  height: 3rem;
+  max-width: 20rem;
+  border-radius: 0.6rem;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+#map{
+  padding:0;
+  min-height: 500px;
+  overflow:hidden;
+  border: 2px solid black;
+}

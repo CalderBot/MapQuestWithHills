@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hill Visualization</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h2> Routing With Hill Visualization<h2>
+		</div>
+		<div class="panel-body">
+			<!-- Route stats: -->
+			<div class="col-sm-4">
+				<form class="form-horizontal" role="form" id="route-data-form">
+					<div class="form-group">
+					    <label for="average-grade">Average grade:</label>
+					    <input type="text" class="form-control" id="averageGrade" >
+					</div>
+					<div class="form-group">
+					    <label for="total-ascent">Total ascent:</label>
+					    <input type="text" class="form-control" id="totalAscent">
+					</div>
+					<div class="form-group">
+					    <label for="steepest">Steepest section:</label>
+					    <input type="text" class="form-control" id="maxGrade">
+					</div>
+					<div class="form-group">
+					    <label for="distance">Distance:</label>
+					    <input type="text" class="form-control" id="totalDistance">
+					</div>
+				</form>	
+			</div>
+			<div class="col-sm-8" id="map"></div>
+		</div>
+	</div>
+
+	<p>Directions Courtesy of 
+		<a href="http://www.mapquest.com/"> MapQuest</a>
+		<img src="http://developer.mapquest.com/content/osm/mq_logo.png">
+	</p> 
+
+	<script src="http://www.mapquestapi.com/sdk/js/v7.1.s/mqa.toolkit.js?key=Fmjtd%7Cluur25a2nl%2Crs%3Do5-9w2sg6"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
